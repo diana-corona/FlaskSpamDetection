@@ -44,4 +44,4 @@ print(classification_report(y_test, y_pred))
 print('kNeighbors Accuracy : {} %'.format(100 * accuracy_score(y_test, y_pred)))
 
 # Save
-dump(kNeighbors_pipeline, 'models/spam_classifier_KNeighbors.joblib')
+dump(kNeighbors_pipeline, 'spam_classifier_KNeighbors.joblib')
