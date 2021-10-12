@@ -1,0 +1,5 @@
+__pycache__/*
+venv/*
+flask_spam_detection_api.egg-info/*
+flask_spam_detection_api/models/*.joblib
+flask_spam_detection_api/__pycache__/*
